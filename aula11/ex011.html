@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condicional js</title>
+</head>
+<body>
+    <h1>Teste geográfico </h1>
+    Em qual país você mora? <input type="text" name="paistx" id="paistx">
+    <input type="button" value="Confirmar" id="but">
+    <p id="resp"> Você é: </p>
+
+    <script>
+        var botao = document.getElementById('but')
+        botao.addEventListener( 'click', verificar)
+        var pais = document.getElementById('paistx')
+        var r = document.getElementById('resp')
+        function verificar(){
+            
+            if (pais.value == 'Brasil') {
+                r.innerHTML = (`Então você é Brasileiro`)
+            } else{
+                r.innerText = 'Voce é estrangeiro'
+            }
+        }
+    </script> 
+</body>
+</html>
