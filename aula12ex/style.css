@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 199, 130);
+    color: white;
+}
+header{
+    
+    padding: 20px;
+    text-align: center;
+}
+
+header > h1{
+    margin-bottom: 10px;
+    font-size: 2.6em;
+}
+
+section{
+    width: 60vw;
+    height: 350px;
+    background-color: white;
+    margin: 30px auto 30px auto;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.368) ;
+}
+
+div#horario{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: .8em;
+}
+
+div#imagem{
+    background-image: url(imagem/noite-500px.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 2px -2px 10px rgba(0, 0, 0, 0.39);
+}
+
+footer{
+    text-align: center;
+}
